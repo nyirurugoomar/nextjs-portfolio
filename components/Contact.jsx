@@ -122,7 +122,7 @@ function Contact() {
                   ></textarea>
                 </div>
                 </div>
-                <button type="submit" className='w-full p-4 text-gray-100 mt-4'>
+                <button type="submit" className='w-full p-4 text-gray-100 mt-4 bg-[#5651e5]'>
                   Send Message
                 </button>
                 </form>

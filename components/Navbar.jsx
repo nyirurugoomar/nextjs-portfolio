@@ -25,13 +25,13 @@ useEffect(()=>{
 
   return (
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]': 'fixed w-full h-20 z-[100]'}>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-white'>
+        <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-white'>
             <Link href='/'>
             <Image 
-            src='/../public/assets/navLogo.png' 
+            src='/../public/assets/omar080.png' 
             alt="/" 
-            width='80'  
-            height='50'
+            width='100'  
+            height='100'
             />
             </Link>
         
@@ -67,9 +67,9 @@ useEffect(()=>{
                 <div className='flex w-full items-center justify-between'>
                     <Link href='/'>
                     <Image 
-                    src='/../public/assets/navLogo.png' 
-                    width='57' 
-                    height='25' 
+                    src='/../public/assets/omar080.png' 
+                    width='70' 
+                    height='70' 
                     alt='/' 
                     />
                     </Link>

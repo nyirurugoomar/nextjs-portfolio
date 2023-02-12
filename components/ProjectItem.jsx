@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Securetech from '../public/assets/projects/Secure Tech.png'
+
 function ProjectItem({title,backgroundImg,projectUrl,tools}) {
   return (
     <div className='relative flex items-center justify-center h-auto min-w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
