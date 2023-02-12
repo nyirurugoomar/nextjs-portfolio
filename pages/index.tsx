@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Portfolio-Nextjs</title>
+        <title>Omar-Nyirurugo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <Navbar/>
