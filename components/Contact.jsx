@@ -68,7 +68,11 @@ function Contact() {
           {/* right */}
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
-                <form>
+                <form
+                  action="https://getform.io/f/c7be9814-ef69-4953-abe0-3d88606b5b0a"
+                  method="POST"
+                  enctype="multipart/form-data"
+                >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
@@ -118,7 +122,7 @@ function Contact() {
                   ></textarea>
                 </div>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button type="submit" className='w-full p-4 text-gray-100 mt-4'>
                   Send Message
                 </button>
                 </form>
