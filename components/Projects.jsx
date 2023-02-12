@@ -7,10 +7,11 @@ import datasecure from '../public/assets/projects/data-secure.png'
 import phoneselling from '../public/assets/projects/smart-phone.png'
 import edc from '../public/assets/projects/EDC.png'
 import genderapp from '../public/assets/projects/gender-app.png'
+import selling from '../public/assets/projects/selling page.png'
 
 function Projects() {
   return (
-    <div className='w-full'>
+    <div id='project' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Build</h2>
@@ -38,7 +39,7 @@ function Projects() {
              />
 
             <ProjectItem 
-             title='PHONE SELLING' 
+             title='TECNO MOBILE' 
              backgroundImg={phoneselling} 
              projectUrl='https://techno-smart-phone.netlify.app/'
              tools='HTML,CSS and JAVASCRIPT'
@@ -55,6 +56,13 @@ function Projects() {
              backgroundImg={genderapp} 
              projectUrl='https://education-dc.com/'
              tools='Reactjs,TailwindCss'
+             />
+
+            <ProjectItem 
+             title='Beyon' 
+             backgroundImg={selling} 
+             projectUrl='https://selling-page.netlify.app/index.html'
+             tools='HTML,CSS and JAVASCRIPT'
              />
                
             </div>
