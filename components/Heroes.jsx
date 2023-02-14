@@ -8,7 +8,7 @@ function Heroes() {
             <div>
                <p className='uppercase text-sm tracking-widest text-gray-600 '>Let's build some thing together</p>
                <h1 className='py-4 text-gray-700'>
-                 Hi,I'M <span className='text-[#5651e5]'>OMAR.N</span>
+                 Hi,I'M <span className='text-[#5651e5]'>OMAR</span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>
                     A Front-End Web Developer
