@@ -6,8 +6,9 @@ import Fintech from '../public/assets/projects/fintech.png'
 import datasecure from '../public/assets/projects/data-secure.png'
 import phoneselling from '../public/assets/projects/smart-phone.png'
 import edc from '../public/assets/projects/EDC.png'
-import genderapp from '../public/assets/projects/gender-app.png'
+// import genderapp from '../public/assets/projects/gender-app.png'
 import selling from '../public/assets/projects/selling page.png'
+import genderapp from '../public/assets/projects/Genderapp.png'
 
 function Projects() {
   return (
@@ -37,6 +38,12 @@ function Projects() {
              projectUrl='https://data-secure-app.netlify.app/'
              tools='Reactjs,Styled-Component'
              />
+             <ProjectItem 
+             title='Gender App ' 
+             backgroundImg={genderapp} 
+             projectUrl='https://gender-app.netlify.app/'
+             tools='Reactjs,TailwindCss'
+             />
 
             <ProjectItem 
              title='TECNO MOBILE' 
@@ -51,19 +58,15 @@ function Projects() {
              projectUrl='https://education-dc.com/'
              tools='Wordpress,Elementor Pro'
              />
-             <ProjectItem 
-             title='Gender-App' 
-             backgroundImg={genderapp} 
-             projectUrl='https://education-dc.com/'
-             tools='Reactjs,TailwindCss'
-             />
-
+             
             <ProjectItem 
              title='Beyon' 
              backgroundImg={selling} 
              projectUrl='https://selling-page.netlify.app/index.html'
              tools='HTML,CSS and JAVASCRIPT'
              />
+
+            
                
             </div>
 
