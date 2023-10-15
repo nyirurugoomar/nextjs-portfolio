@@ -15,9 +15,7 @@ function About() {
                     I can debug and solve complex technical issues and the ability to stay up-to-date with the latest front-end development technologies has made me a valuable asset to any development team. With 4 years of hands-on experience and a track record of delivering successful projects, I am well-positioned to continue making a positive impact in the world of front-end development.
                 </p>
                 
-                <p className='py-4 text-gray-600 underline cursor-pointer'>
-                    Check Out Some Of My Latest Projects
-                </p>
+                
             </div>
             <div className='w-full h-auto m-auto shadow-bt shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image src='/assets/omar_image.png' width='350' height='350' alt="" />

@@ -9,6 +9,11 @@ import edc from '../public/assets/projects/EDC.png'
 // import genderapp from '../public/assets/projects/gender-app.png'
 import selling from '../public/assets/projects/selling page.png'
 import genderapp from '../public/assets/projects/Genderapp.png'
+import furniture from '../public/assets/projects/furniture.png'
+import gaming from '../public/assets/projects/gaming.png'
+import hydra from '../public/assets/projects/hydra.png'
+import house from '../public/assets/projects/house sell.png'
+import tourism from '../public/assets/Tourism.png'
 
 function Projects() {
   return (
@@ -64,6 +69,41 @@ function Projects() {
              backgroundImg={selling} 
              projectUrl='https://selling-page.netlify.app/index.html'
              tools='HTML,CSS and JAVASCRIPT'
+             />
+
+             <ProjectItem 
+             title='Home Furniture' 
+             backgroundImg={furniture} 
+             projectUrl='https://furniture-testing-app.netlify.app/'
+             tools='Reactjs,Tailwind'
+             />
+
+             <ProjectItem 
+             title='Gaming Landing Page' 
+             backgroundImg={gaming} 
+             projectUrl='https://gaminglandingpage-app.netlify.app/'
+             tools='Reactjs,Tailwind'
+             />
+
+             <ProjectItem 
+             title='Hydra' 
+             backgroundImg={hydra} 
+             projectUrl='https://github.com/nyirurugoomar/HYDRA-APP'
+             tools='Nextjs,Tailwind'
+             />
+
+             <ProjectItem 
+             title='House For Sell' 
+             backgroundImg={house} 
+             projectUrl='https://github.com/nyirurugoomar/House-Rent-App'
+             tools='Reactjs,Tailwind'
+             />
+
+            <ProjectItem 
+             title='Tourism Agency/Under Kitech Project' 
+             backgroundImg={tourism} 
+             projectUrl='http://vazqueztours.com/'
+             tools='Reactjs,Tailwind'
              />
 
             
