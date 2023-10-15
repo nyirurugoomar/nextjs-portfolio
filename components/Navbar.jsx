@@ -28,7 +28,7 @@ useEffect(()=>{
         <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-white'>
             <Link href='/'>
             <Image 
-            src='/../public/assets/omar080.png' 
+            src='/assets/omar080.png' 
             alt="/" 
             width='100'  
             height='100'

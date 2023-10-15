@@ -14,7 +14,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/js.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/js.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3>JAVASCRIPT</h3>
@@ -25,7 +25,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/next.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/next.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3>NEXTJS</h3>
@@ -36,7 +36,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/reactjs.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/reactjs.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3>REACTJS</h3>
@@ -47,7 +47,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/tailwind.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/tailwind.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3>TAILWINDCSS</h3>
@@ -58,7 +58,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/css.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/css.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3>CSS</h3>
@@ -69,7 +69,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/styled-components.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/styled-components.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3 className='uppercase'>styled-components</h3>
@@ -80,7 +80,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/html2.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/html2.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3 className='uppercase'>HTML</h3>
@@ -91,7 +91,7 @@ function Skills() {
           <div className='p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                <div className='m-auto'>
-                 <Image src='/../public/assets/skills/wordpress.png' width='64' height='64' alt='/'/>
+                 <Image src='/assets/skills/wordpress.png' width='64' height='64' alt='/'/>
                </div>
                <div className='flex flex-col items-center justify-center'>
                   <h3 className='uppercase'>WORDPRESS</h3>

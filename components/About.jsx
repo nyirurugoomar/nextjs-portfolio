@@ -20,7 +20,7 @@ function About() {
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-bt shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <Image src='/../public/assets/omar_image.png' width='350' height='350' alt="" />
+            <Image src='/assets/omar_image.png' width='350' height='350' alt="" />
             </div>
         </div>
     </div>
