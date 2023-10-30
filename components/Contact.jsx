@@ -26,9 +26,7 @@ function Contact() {
               <div>
                 <h2 className='py-2'>Omar N.</h2>
                 <p>Front-End Developer</p>
-                <p className='py-4'>
-                I am available for work, either as a freelancer or full-time employee.
-                </p>
+                
               </div>
               <div>
                 <p className='uppercase pt-8'>Let's meet up.</p>
