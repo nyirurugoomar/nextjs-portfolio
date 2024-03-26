@@ -14,6 +14,7 @@ import hydra from "../public/assets/projects/hydra.png";
 import house from "../public/assets/projects/house sell.png";
 import tourism from "../public/assets/Tourism.png";
 import helpcenter from "../public/assets/projects/Helpcenter.png";
+import Logist from "../public/assets/projects/Logist.png";
 
 function Projects() {
   return (
@@ -24,6 +25,12 @@ function Projects() {
         </p>
         <h2 className="py-4">What I've Build</h2>
         <div className="grid md:grid-cols-3 gap-8">
+        <ProjectItem
+            title="Logistic LandingPage"
+            backgroundImg={Logist}
+            projectUrl="https://logist-app.vercel.app/"
+            tools="Nextjs,Tailwind"
+          />
           <ProjectItem
             title="Secute Tech"
             backgroundImg={Securetech}
@@ -43,6 +50,25 @@ function Projects() {
             backgroundImg={datasecure}
             projectUrl="https://data-secure-app.netlify.app/"
             tools="Reactjs,Styled-Component"
+          />
+         
+          <ProjectItem
+            title="Tourism Agency/Under Kitech Project"
+            backgroundImg={tourism}
+            projectUrl="http://vazqueztours.com/"
+            tools="Reactjs,Tailwind"
+          />
+          <ProjectItem
+            title="Gaming Landing Page"
+            backgroundImg={gaming}
+            projectUrl="https://gaminglandingpage-app.netlify.app/"
+            tools="Reactjs,Tailwind"
+          />
+          <ProjectItem
+            title="Help Center Application"
+            backgroundImg={helpcenter}
+            projectUrl="https://github.com/nyirurugoomar/mern-auth"
+            tools="Reactjs,Tailwind,Nodejs,Express,MongoDB"
           />
           <ProjectItem
             title="Gender App "
@@ -79,12 +105,7 @@ function Projects() {
             tools="Reactjs,Tailwind"
           />
 
-          <ProjectItem
-            title="Gaming Landing Page"
-            backgroundImg={gaming}
-            projectUrl="https://gaminglandingpage-app.netlify.app/"
-            tools="Reactjs,Tailwind"
-          />
+          
 
           <ProjectItem
             title="Hydra"
@@ -100,18 +121,9 @@ function Projects() {
             tools="Reactjs,Tailwind"
           />
 
-          <ProjectItem
-            title="Tourism Agency/Under Kitech Project"
-            backgroundImg={tourism}
-            projectUrl="http://vazqueztours.com/"
-            tools="Reactjs,Tailwind"
-          />
-          <ProjectItem
-            title="Help Center Application"
-            backgroundImg={helpcenter}
-            projectUrl="https://github.com/nyirurugoomar/mern-auth"
-            tools="Reactjs,Tailwind,Nodejs,Express,MongoDB"
-          />
+          
+          
+          
         </div>
       </div>
     </div>
