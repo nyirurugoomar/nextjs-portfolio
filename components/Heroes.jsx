@@ -5,8 +5,8 @@ function Heroes() {
   return (
     <div id="home" className="w-full h-screen text-center   ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
-          <h1 className="py-4 text-gray-700 mt-40">
+        <div className="md:mt-4 mt-40">
+          <h1 className=" text-gray-700">
             Hi,I'M <span className="text-[#5651e5]">OMAR</span>
           </h1>
           <h1 className="py-2 text-gray-700">A Front-End Developer</h1>
