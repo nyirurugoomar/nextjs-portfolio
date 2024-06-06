@@ -15,6 +15,7 @@ import house from "../public/assets/projects/house sell.png";
 import tourism from "../public/assets/Tourism.png";
 import helpcenter from "../public/assets/projects/Helpcenter.png";
 import Logist from "../public/assets/projects/Logist.png";
+import investment from "../public/assets/projects/investment group.png";
 
 function Projects() {
   return (
@@ -30,6 +31,12 @@ function Projects() {
             backgroundImg={Logist}
             projectUrl="https://logist-app.vercel.app/"
             tools="Nextjs,Tailwind"
+          />
+          <ProjectItem
+            title="Investment Group"
+            backgroundImg={investment}
+            projectUrl="https://real-estate-pink-alpha.vercel.app/"
+            tools="React,Tailwind"
           />
           <ProjectItem
             title="Secute Tech"

@@ -9,14 +9,9 @@ function Heroes() {
           <h1 className=" text-gray-700">
             Hi,I'M <span className="text-[#5651e5]">OMAR</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Front-End Developer</h1>
+          
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm an experienced front-end developer proficient in utilizing
-            various frameworks to create visually appealing and user-friendly
-            web interfaces. My focus is on building dynamic and interactive
-            websites that prioritize an excellent user experience. I'm committed
-            to ensuring accessibility, responsiveness, and overall usability in
-            the projects I work on.
+          A Full-Stack Engineer 🧑‍💻 Dedicated to crafting accessible Web and Mobile solutions, Based in Kigali - Rwanda 🇷🇼 the heart of Africa.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
