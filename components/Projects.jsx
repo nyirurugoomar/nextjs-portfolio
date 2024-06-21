@@ -16,6 +16,7 @@ import tourism from "../public/assets/Tourism.png";
 import helpcenter from "../public/assets/projects/Helpcenter.png";
 import Logist from "../public/assets/projects/Logist.png";
 import investment from "../public/assets/projects/investment group.png";
+import blog from "../public/assets/projects/Blog.png";
 
 function Projects() {
   return (
@@ -26,6 +27,12 @@ function Projects() {
         </p>
         <h2 className="py-4">What I've Build</h2>
         <div className="grid md:grid-cols-3 gap-8">
+        <ProjectItem
+            title="Blog"
+            backgroundImg={blog}
+            projectUrl="https://finsweet-blog-new.vercel.app/"
+            tools="Nextjs,Tailwind,Sanity,Typescript"
+          />
         <ProjectItem
             title="Logistic LandingPage"
             backgroundImg={Logist}
