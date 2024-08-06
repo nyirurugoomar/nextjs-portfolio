@@ -17,6 +17,7 @@ import helpcenter from "../public/assets/projects/Helpcenter.png";
 import Logist from "../public/assets/projects/Logist.png";
 import investment from "../public/assets/projects/investment group.png";
 import blog from "../public/assets/projects/Blog.png";
+import Jobpilot from "../public/assets/projects/Jobpilot.png";
 
 function Projects() {
   return (
@@ -38,6 +39,12 @@ function Projects() {
             backgroundImg={Logist}
             projectUrl="https://logist-app.vercel.app/"
             tools="Nextjs,Tailwind"
+          />
+          <ProjectItem
+            title="Jobpilot"
+            backgroundImg={Jobpilot}
+            projectUrl="https://jobpilot-app-theta.vercel.app/"
+            tools="Nextjs,Tailwind,Typescript,Nodejs,framer-motion"
           />
           <ProjectItem
             title="Investment Group"
