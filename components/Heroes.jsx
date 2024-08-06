@@ -3,7 +3,7 @@ import { FaBehance, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Heroes() {
   return (
-    <div id="home" className="w-full h-screen text-center   ">
+    <div id="home" className="w-full h-full text-center md:pt-40 pt-0">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="md:mt-4 mt-40">
           <h1 className=" text-gray-700">
