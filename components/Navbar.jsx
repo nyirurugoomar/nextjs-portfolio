@@ -24,8 +24,8 @@ useEffect(()=>{
 },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]': 'fixed w-full h-20 z-[100]'}>
-        <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-white'>
+    <div className={shadow ? 'fixed w-full h-20 shadow-xl border-b-2 border-white z-[100] ': 'fixed w-full h-20 z-[100]'}>
+        <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 bg-[#121729]'>
             <Link href='/'>
             <Image 
             src='/assets/omar080.png' 
@@ -37,7 +37,7 @@ useEffect(()=>{
         
          
           <div>
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex text-white'>
                 <Link href='/'>
                     <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                 </Link>
@@ -55,7 +55,7 @@ useEffect(()=>{
                 </Link>
             </ul>
             <div onClick={handleNav} className='md:hidden cursor-pointer'>
-               <AiOutlineMenu size={25}/>
+               <AiOutlineMenu color="white"  size={25}/>
             </div>
           </div> 
         </div>
@@ -75,7 +75,7 @@ useEffect(()=>{
                     </Link>
                     
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
-                        <AiOutlineClose/>
+                        <AiOutlineClose />
                     </div>
                 </div>
                  <div className='border-b border-gray-300 my-4 '>
