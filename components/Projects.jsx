@@ -47,7 +47,7 @@ function Projects() {
           <ProjectItem
             title="Jobpilot"
             backgroundImg={Jobpilot}
-            projectUrl="https://jobpilot-app-theta.vercel.app/"
+            projectUrl="https://jobpilot-app-app.vercel.app/"
             tools="Nextjs,Tailwind,Typescript,Nodejs,framer-motion"
           />
           <ProjectItem

@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Omar-Nyirurugo</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href='/assets/skills/smille_omar 1.png' />
       </Head>
         <Navbar/>
         <Heroes/>
