@@ -86,6 +86,7 @@ function Contact() {
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
                     name='email'
+                    required
                     placeholder='Email'
                   />
                 </div>
@@ -95,6 +96,7 @@ function Contact() {
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
                     name='subject'
+                    required
                     placeholder='Subject'
                   />
                 </div>
@@ -104,6 +106,7 @@ function Contact() {
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
                     name='message'
+                    required
                     placeholder='Message'
                   ></textarea>
                 </div>
