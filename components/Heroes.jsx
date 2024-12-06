@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaBehance, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
+
 function Heroes() {
   return (
     <div
@@ -16,6 +17,7 @@ function Heroes() {
             A Full-Stack Engineer 🧑‍💻 Dedicated to crafting accessible Web and
             Mobile solutions, Based in Kigali - Rwanda 🇷🇼 the heart of Africa.
           </p>
+          
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-[#5651e5] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <a href="https://www.linkedin.com/in/omar-nyirurugo-08bb1b157/">
